@@ -41,8 +41,16 @@ function App() {
       <Route exact path="/" component={Portfolio} />
       <Route path="/contact" component={Contact} />
       
-      <div className="pure-g">
-        <p> Made with NodeJs & Reactby me with <FaHeart /> from Bath, Deployed using Travis CI | <a href="https://github.com/JamesWilson19947/JamesWilson19947.github.io/">View the source code</a> </p> 
+      <div className="footer">
+        <div className="pure-g">
+          <center>
+            <p> Made with NodeJs & Reactby me with <FaHeart /> from Bath. <br></br>
+            Deployed using Travis CI 
+            <img src="https://api.travis-ci.org/JamesWilson19947/JamesWilson19947.github.io.svg?branch=dev" alt="new"/>
+            <br></br>
+            | <a href="https://github.com/JamesWilson19947/JamesWilson19947.github.io/">View the source code</a> </p>
+          </center>
+        </div>
       </div>
 
     </BrowserRouter>
