@@ -17,7 +17,8 @@ function App() {
           </div>
           <h1>James Wilson</h1> 
           <h3>A Cloud Engineer From Bath, England</h3>
-          <center><h5><a href="https://github.com/JamesWilson19947/JamesWilson19947.github.io/">Built using NodeJS/React</a>, Deployed via Travis <br></br><img src="https://api.travis-ci.org/JamesWilson19947/JamesWilson19947.github.io.svg?branch=dev" alt="new"/> </h5></center>
+          <center><h5><a href="https://github.com/JamesWilson19947/JamesWilson19947.github.io/">Site crafted using NodeJS/React</a>, Automatically Deployed via Travis <br></br><br></br>
+          <a href="https://travis-ci.org/JamesWilson19947/JamesWilson19947.github.io"><img src="https://api.travis-ci.org/JamesWilson19947/JamesWilson19947.github.io.svg?branch=dev"</a> alt="new"/> </h5></center>
           <div className="social">
             <ul>
               <a href="https://www.facebook.com/jamesphilipwilson"><li><FaFacebook /></li></a>
