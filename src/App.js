@@ -48,7 +48,7 @@ function App() {
       <Route exact path="/" component={Portfolio} />
       <Route path="/contact" component={Contact} />
       
-      <div className="footer">       
+      <div className="pure-g">
         <p> Made with NodeJs & Reactby me with <FaHeart /> from Bath, Deployed using Travis CI | <a href="https://github.com/JamesWilson19947/JamesWilson19947.github.io/">View the source code</a> </p> 
       </div>
 
