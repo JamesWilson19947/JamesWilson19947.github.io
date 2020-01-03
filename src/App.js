@@ -18,7 +18,11 @@ function App() {
           <h1>James Wilson</h1> 
           <h3>A Cloud Engineer From Bath, England</h3>
           <center><h5><a href="https://github.com/JamesWilson19947/JamesWilson19947.github.io/">Site crafted using NodeJS/React</a>, Automatically Deployed via Travis <br></br><br></br>
-          <a href="https://travis-ci.org/JamesWilson19947/JamesWilson19947.github.io"><img src="https://api.travis-ci.org/JamesWilson19947/JamesWilson19947.github.io.svg?branch=dev" alt="new"/> </a> </h5></center>
+          <a href="https://travis-ci.org/JamesWilson19947/JamesWilson19947.github.io"><img src="https://api.travis-ci.org/JamesWilson19947/JamesWilson19947.github.io.svg?branch=dev" alt="travis"/> </a> 
+          <a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="license"/> </a>
+          <a href="https://github.com/JamesWilson19947/JamesWilson19947.github.io/issues"><img src="https://img.shields.io/github/issues/JamesWilson19947/JamesWilson19947.github.io" alt="issues"/> </a>
+          <a href="https://github.com/JamesWilson19947/JamesWilson19947.github.io/commits/dev"><img src="https://img.shields.io/github/last-commit/JamesWilson19947/JamesWilson19947.github.io/dev" alt="issues"/> </a>
+          </h5></center>
           <div className="social">
             <ul>
               <a href="https://www.facebook.com/jamesphilipwilson"><li><FaFacebook /></li></a>
