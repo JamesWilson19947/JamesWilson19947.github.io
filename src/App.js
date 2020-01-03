@@ -12,12 +12,6 @@ import { FaFacebook, FaTwitter, FaGithub, FaLinkedin, FaHeart } from 'react-icon
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css" />
-        <div id='stars'></div>
-        <div id='stars2'></div>
-        <div id='stars3'></div>
-      </div>
       <div className="header">
           <div className="Me">
             <img src={Me} alt="James Wilson" />
