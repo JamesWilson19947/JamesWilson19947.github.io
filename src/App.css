@@ -288,3 +288,10 @@ div.footer p{
     text-align: center;
     margin-left: -30px;
 }
+div.header center h5 {
+    color: #c9c9c9;
+}
+
+center h5 a {
+    color: #d4d4d4;
+}
