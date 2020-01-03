@@ -6,21 +6,8 @@ import Me from "./me.png";
 import './App.css';
 import './pure-min.css';
 import './Parallax.css';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab, faFacebook, faTwitter, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faCloud, faAddressCard, faHeart  } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaFacebook, FaTwitter, FaGithub, FaLinkedin, FaHeart } from 'react-icons/fa';
 
-library.add(
-  fab, 
-  faCloud, 
-  faAddressCard, 
-  faFacebook,
-  faTwitter,
-  faGithub,
-  faLinkedin,
-  faHeart
-)
  
 function App() {
   return (
@@ -41,10 +28,10 @@ function App() {
           <h3>A Cloud Engineer From Bath, England</h3>
           <div className="social">
             <ul>
-              <a href="https://www.facebook.com/jamesphilipwilson"><li><FontAwesomeIcon icon={faFacebook} /></li></a>
-              <a href="https://twitter.com/james_wilson21"><li><FontAwesomeIcon icon={faTwitter} /></li></a>
-              <a href="https://github.com/JamesWilson19947"><li><FontAwesomeIcon icon={faGithub} /></li></a>
-              <a href="https://www.linkedin.com/in/jpwilson/"><li><FontAwesomeIcon icon={faLinkedin} /></li></a>
+              <a href="https://www.facebook.com/jamesphilipwilson"><FaFacebook /></a>
+              <a href="https://twitter.com/james_wilson21"><FaTwitter /></a>
+              <a href="https://github.com/JamesWilson19947"><FaGithub /></a>
+              <a href="https://www.linkedin.com/in/jpwilson/"><FaLinkedin /></a>
             </ul>
           </div>
       </div>
@@ -64,7 +51,7 @@ function App() {
       <Route path="/contact" component={Contact} />
       
       <div className="footer">       
-        <p> Made with NodeJs & React by me with <FontAwesomeIcon icon={faHeart} /> from Bath | View the source code </p> 
+        <p> Made with NodeJs & React by me with <FaHeart /> from Bath | View the source code </p> 
       </div>
 
     </BrowserRouter>

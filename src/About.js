@@ -1,19 +1,8 @@
 import React from "react"
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCloud,faCode,faHeadset,faGuitar,faPlane, faUserNinja  } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaCloud, FaCode, FaHeadset, FaGuitar, FaPlane, FaUserNinja } from 'react-icons/fa';
 import microsoft from "./microsoft.png";
 import ibm from "./ibm.png";
 import aws from "./aws.png";
-
-library.add(
-  faCloud, 
-  faCode,
-  faHeadset,
-  faGuitar,
-  faPlane,
-  faUserNinja
-)
 
 function About(props) {
   return (
@@ -26,7 +15,7 @@ function About(props) {
 	          	
 				    <div className="pure-u-1-6">
 				   		<center>
-					    	<h1><FontAwesomeIcon icon={faCloud} /></h1>
+					    	<h1><FaCloud /></h1>
 					    	<h4> Dev Ops </h4>
 					    	<p>I fix, maintain, improve and automate cloud infrastructure.</p>
 				    	</center>
@@ -34,7 +23,7 @@ function About(props) {
 
 				    <div className="pure-u-1-6">
 				   		<center>
-					    	<h1><FontAwesomeIcon icon={faUserNinja} /></h1>
+					    	<h1><FaUserNinja /></h1>
 					    	<h4> Support Ninja</h4>
 					    	<p>6 years being a support engineer, fixing bugs, answering tickets, and fixing issues.</p>
 				    	</center>
@@ -43,7 +32,7 @@ function About(props) {
 
 				  	<div className="pure-u-1-6">
 				   		<center>
-					    	<h1><FontAwesomeIcon icon={faCode} /></h1>
+					    	<h1><FaCode /></h1>
 					    	<h4> Programming </h4>
 					    	<p>I code in PHP, Python & GoLang, Javascript, React, NodeJS, MySQL</p>
 				    	</center>
@@ -51,7 +40,7 @@ function About(props) {
 
 				  	<div className="pure-u-1-6">
 				   		<center>
-					    	<h1><FontAwesomeIcon icon={faHeadset} /></h1>
+					    	<h1><FaHeadset /></h1>
 					    	<h4> Customer Service </h4>
 					    	<p>An expert in Customer Service, with an IBM Customer Certification.</p>
 				    	</center>
@@ -59,7 +48,7 @@ function About(props) {
 
 				  	<div className="pure-u-1-6">
 				   		<center>
-					    	<h1><FontAwesomeIcon icon={faGuitar} /></h1>
+					    	<h1><FaGuitar /></h1>
 					    	<h4> Music </h4>
 					    	<p>I play Guitar, Piano, Harmonica and love to make little tunes.</p>
 				    	</center>
@@ -67,7 +56,7 @@ function About(props) {
 
 				  	<div className="pure-u-1-6">
 				   		<center>
-					    	<h1><FontAwesomeIcon icon={faPlane} /></h1>
+					    	<h1><FaPlane /></h1>
 					    	<h4> Aviation </h4>
 					    	<p>I have always loved aviation, and hope to learn to fly one day.</p>
 				    	</center>
