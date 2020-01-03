@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Contact from './Contact.js'; 
-import About from './About.js'; 
+import Portfolio from './Portfolio.js'; 
 import Me from "./me.png";
 import './App.css';
 import './pure-min.css';
@@ -40,14 +40,14 @@ function App() {
         <div className="header">
           <div className="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
             <ul className="pure-menu-list">
-              <li className="pure-menu-item"><Link to="/" className="pure-menu-link">About</Link></li>
+              <li className="pure-menu-item"><Link to="/portfolio" className="pure-menu-link">About</Link></li>
               <li className="pure-menu-item"><Link to="/contact" className="pure-menu-link">Contact</Link></li>
             </ul>
           </div>
         </div>         
       </div>
 
-      <Route exact path="/" component={About} />
+      <Route exact path="/portfolio" component={Portfolio} />
       <Route path="/contact" component={Contact} />
       
       <div className="footer">       
