@@ -240,10 +240,15 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     div.awards {
      width: 100%;
     }
-div.awards div.pure-u-1-2 {
-    margin-left: -60px;
-    margin-top: 1px;
-}
+
+    div.skills div.pure-u-1-6 {
+    margin: 20px;
+    }
+
+    div.awards div.pure-u-1-2 {
+        margin-left: -60px;
+        margin-top: 1px;
+    }
 
 
 }
