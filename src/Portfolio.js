@@ -127,7 +127,7 @@ function About(props) {
 	        		</div>
 	        		<div className="pure-u-1-2">
 	        			<h4>MCPS: Microsoft Certified Professional</h4>
-	        			<p> Issued Jul 2015  Credential: RKWENYMECQZL </p>
+	        			<p> Issued Jul 2015 </p>
 	        		</div>
 		  	    </div>
 	  	    </div>
