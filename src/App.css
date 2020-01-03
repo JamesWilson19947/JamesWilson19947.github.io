@@ -1,5 +1,6 @@
 body{
     color: #DBDBDB;
+    background: radial-gradient(ellipse at bottom, #1b2735 100%, #090a0f 0%);
 }
 .pure-img-responsive{
     max-width: 100%;
