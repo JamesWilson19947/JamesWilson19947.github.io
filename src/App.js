@@ -5,7 +5,7 @@ import Portfolio from './Portfolio.js';
 import Me from "./me.png";
 import './App.css';
 import './pure-min.css';
-import { FaFacebook, FaTwitter, FaGithub, FaLinkedin, FaHeart } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 
  
 function App() {
