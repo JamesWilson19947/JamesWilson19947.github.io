@@ -1,12 +1,5 @@
 import React from "react"
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-library.add(
-  faLinkedin
-)
- 
 function Contact(props) {
   return (
         <div id="main">
