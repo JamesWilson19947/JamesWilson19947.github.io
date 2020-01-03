@@ -68,8 +68,8 @@ function About(props) {
 
             <h2 className="content-subhead">A man with a passion</h2>
             <p>
-              Hello Stanger,<br></br>
-              Thanks for visiting my site, my name is James Wilson, I am from Bath in the United Kingdom, currently living just outside of Bath, I absolutley love new cutting edge technologies
+              Hello Friend,<br></br>
+              Thanks for visiting my site, my name is James Wilson, I am from Bath in the United Kingdom, currently living just outside of Bath, I absolutely love new cutting edge technologies
               I have been deeply interested in the Cloud and server infrastructure since I was around 14 years old, I've managed to pursue this in my adulthood as a versatile Cloud Support & Dev Ops engineer
               which I have been in this sector for almost 7 years now.
 
