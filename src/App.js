@@ -12,13 +12,11 @@ import { FaFacebook, FaTwitter, FaGithub, FaLinkedin, FaHeart } from 'react-icon
 function App() {
   return (
     <BrowserRouter>
-<div>
+      <div>
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css" />
-
         <div id='stars'></div>
         <div id='stars2'></div>
         <div id='stars3'></div>
-
       </div>
       <div className="header">
           <div className="Me">
@@ -28,10 +26,10 @@ function App() {
           <h3>A Cloud Engineer From Bath, England</h3>
           <div className="social">
             <ul>
-              <a href="https://www.facebook.com/jamesphilipwilson"><FaFacebook /></a>
-              <a href="https://twitter.com/james_wilson21"><FaTwitter /></a>
-              <a href="https://github.com/JamesWilson19947"><FaGithub /></a>
-              <a href="https://www.linkedin.com/in/jpwilson/"><FaLinkedin /></a>
+              <a href="https://www.facebook.com/jamesphilipwilson"><li><FaFacebook /></li></a>
+              <a href="https://twitter.com/james_wilson21"><li><FaTwitter /></li></a>
+              <a href="https://github.com/JamesWilson19947"><li><FaGithub /></li></a>
+              <a href="https://www.linkedin.com/in/jpwilson/"><li><FaLinkedin /></li></a>
             </ul>
           </div>
       </div>
