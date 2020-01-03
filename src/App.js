@@ -40,18 +40,18 @@ function App() {
         <div className="header">
           <div className="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
             <ul className="pure-menu-list">
-              <li className="pure-menu-item"><Link to="/portfolio" className="pure-menu-link">About</Link></li>
+              <li className="pure-menu-item"><Link to="/" className="pure-menu-link">About</Link></li>
               <li className="pure-menu-item"><Link to="/contact" className="pure-menu-link">Contact</Link></li>
             </ul>
           </div>
         </div>         
       </div>
 
-      <Route exact path="/portfolio" component={Portfolio} />
+      <Route exact path="/" component={Portfolio} />
       <Route path="/contact" component={Contact} />
       
       <div className="footer">       
-        <p> Made with NodeJs & React by me with <FaHeart /> from Bath | View the source code </p> 
+        <p> Made with NodeJs & Reactby me with <FaHeart /> from Bath, Deployed using Travis CI | <a href="https://github.com/JamesWilson19947/JamesWilson19947.github.io/">View the source code</a> </p> 
       </div>
 
     </BrowserRouter>
