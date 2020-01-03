@@ -173,9 +173,7 @@ div.home-menu.pure-menu.pure-menu-horizontal.pure-menu-fixed{
     div.awards{
         width: 100%;
     }
-    div.skills div.pure-u-1-6{
-        margin: 20px;
-    }
+
     div.awards div.pure-u-1-2{
         margin-left: -60px;
         margin-top: 1px;
@@ -186,6 +184,9 @@ div.home-menu.pure-menu.pure-menu-horizontal.pure-menu-fixed{
     #layout.active{
         position: relative;
         left: 150px;
+    }
+    div.skills div.pure-u-1-6{
+        margin: 20px;
     }
 }
 div.social{
