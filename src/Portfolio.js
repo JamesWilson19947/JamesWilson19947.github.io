@@ -1,5 +1,5 @@
 import React from "react"
-import { FaCloud, FaCode, FaHeadset, FaGuitar, FaPlane, FaUserNinja } from 'react-icons/fa';
+import { FaCloud, FaCode, FaHeadset, FaGuitar, FaPlane, FaUserNinja, FaBriefcase } from 'react-icons/fa';
 import microsoft from "./microsoft.png";
 import ibm from "./ibm.png";
 import aws from "./aws.png";
@@ -79,11 +79,129 @@ function About(props) {
               I have experience in leading technologies like MySQL, PHP, Ubuntu, Windows Servers, Apache2 and IIS, PHP-FPM, SoapAPI’s, AWS, Rackspace, Github and much more.
             </p>
 
+			<div className="skills-section">
+			    <h3><i className="fa fa-code"></i>Core Skills</h3>
+			    <ul>
+			    	<li>
+				        <span>Customer Service</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '100%'}} />
+				          </div>
+				     </li>
+			      	<li>
+				        <span>GIT, Github, Bitbucket</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '95%'}} />
+				          </div>
+				     </li>
+			      	<li>
+				        <span>Linux, Ubuntu, Debian</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '95%'}} />
+				          </div>
+				    </li>
+			      	<li>
+				        <span>Windows Server</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '85%'}} />
+				          </div>
+				    </li>
+			      	<li>
+				        <span>Continous CI, Travis CI</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '75%'}} />
+				          </div>
+				    </li>
+			      	<li>
+				        <span>Containers, Docker, Heroku</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '60%'}} />
+				          </div>
+				     </li>
+	      			<li>
+				        <span>Cloud, AWS, Rackspace, Azure</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '60%'}} />
+				          </div>
+				     </li>
+	      			<li>
+				        <span>Orchestration, Kubernetes</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '10%'}} />
+				          </div>
+				     </li>
+			      </ul>
+			</div>
+
+			<div className="skills-section">
+			    <h3><i className="fa fa-code"></i>Languages</h3>
+			    <ul>
+			    	<li>
+				        <span>PHP</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '90%'}} />
+				          </div>
+				     </li>
+			      	<li>
+				        <span>MySQL</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '85%'}} />
+				          </div>
+				     </li>
+		      		<li>
+				        <span>Bash</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '70%'}} />
+				          </div>
+				    </li>
+			      	<li>
+				        <span>HTML5</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '85%'}} />
+				          </div>
+				    </li>
+			      	<li>
+				        <span>CSS3</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '65%'}} />
+				          </div>
+				    </li>
+			      	<li>
+				        <span>Python</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '60%'}} />
+				          </div>
+				    </li>
+			      	<li>
+				        <span>Javascript</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '10%'}} />
+				          </div>
+				    </li>
+			      	<li>
+				        <span>GoLang</span>
+				          <div className="skills-bar">
+				            <div className="bar" style={{width: '5%'}} />
+				          </div>
+				    </li>
+			      </ul>
+			</div>
+
+		    <div className="work">
+		      <h3><FaBriefcase /> Work Experience</h3>
+		      <ul>
+		        <li><span>Third Line / Cloud Support Consultant</span><small>Feb 2018 - Now</small></li>
+		        <li><span>Second Line Support Engineer</span><small>Nov 2015 - Jan 2018 (2 yrs 3 mos)</small></li>
+		        <li><span>Support Engineer</span><small>May 2014 - Nov 2015 (1 yr 7 mos)</small></li>
+		        <li><span>Support Technician</span><small>Sep 2013 - Apr 2014 (8 mos)</small></li>
+		      </ul>
+		    </div>
+
+
             <h2 className="content-subhead">Things I have achieved</h2>
+
             
            	<div className="awards">
-
-
 	            <div className="pure-g">
 	        		<div className="pure-u-1-6">
 	        			<img src={ibm} alt="IBM Logo" />
