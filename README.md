@@ -6,4 +6,6 @@
 [![Releases](https://img.shields.io/github/v/release/JamesWilson19947/JamesWilson19947.github.io)](https://github.com/JamesWilson19947/JamesWilson19947.github.io/releases)
 [![Size](https://img.shields.io/github/repo-size/JamesWilson19947/JamesWilson19947.github.io)](https://github.com/JamesWilson19947/JamesWilson19947.github.io/)
 
-## The Portfolio of James Wilson
+![Image of portfolio](https://i.imgur.com/iRIKdTq.png)
+
+The Portfolio of James Wilson is made in React / NodeJS, in time it will have more experimental elements, the idea being to show off my skills and knowledge of programming! :)
