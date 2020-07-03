@@ -139,7 +139,7 @@ function About(props) {
 			    	<li>
 				        <span>PHP</span>
 				          <div className="skills-bar">
-				            <div className="bar" style={{width: '90%'}} />
+				            <div className="bar" style={{width: '95%'}} />
 				          </div>
 				     </li>
 			      	<li>
